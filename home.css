@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+html{
+    margin: 1%; 
+    background-color: rgb(78, 16, 20);
+}
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* nav and description */
+.col-1-2{
+    float: left; 
+    border-top: black 6px solid;
+    border-left: rgb(255, 255, 255) 4px solid;
+}
+
+/* nav */
+#nav{
+    background-color: rgb(255, 193, 123);
+    padding: 3%;
+    border-left: white 4px solid;
+    border-bottom: white 4px solid;
+}
+button{
+    background-color: rgb(255, 193, 123);
+    color: rgb(197, 98, 40);
+    font-size: 15pt;
+    margin: .2%;
+    margin-left: .5%;
+    font-weight: bold;
+    font-family: Ebrima;
+    border: none;
+    padding: 3%;
+}
+button:hover{
+    background-color: rgb(136, 54, 54);
+    color: rgb(255, 219, 102);
+}
+
+/* discriptions */
+#des{
+    background: url(red29.jpg);
+    padding-left: 16%;
+    padding-right: 16%;
+    font-size: 16pt;
+    overflow: scroll;
+    height: 6%;
+}
